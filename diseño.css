@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+
+body{
+        background-color: silver;
+        font-size: 16px;
+        background-image: url(imagenes/silueta_trofeo.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+    
+}
+body.contacto{
+        text-align: left ;
+    
+}
+
+div.redes a{
+        color: black;
+        font-family: 'Marcellus SC', serif;
+        text-decoration: none;
+} 
+
+div.redes a:hover{
+        color:rgb(100, 149, 237) ;
+        font-family: 'Marcellus SC', serif;
+        text-decoration: underline;
+} 
+
+p.parrafo2{
+        font-family: 'Marcellus SC', serif;
+        font-size: xx-large;
+        height: max-content;
+        text-align: center;
+        text-decoration: underline;
+        color:rgb(100, 149, 237) ;
+        padding: 0.5rem;   
+}
+
+div.redes{
+        text-align: center;
+        margin: 0.5rem;
+        padding: 1%;
+}
+
+*{
+        margin: auto;
+}
+header{
+        background-color:  black;        
+        top: 0%;
+
+}
+
+nav ul li{
+        list-style: none;        
+        margin-left: 1%;
+        padding: 1%;
+        top: 0%;
+        text-align: left;
+        display: inline-block;
+}
+
+header nav ul li a{
+        font-family: 'Macondo', serif;;
+        font-size: xx-large;
+        color: rgb(173, 216, 230);
+        text-decoration: none;
+
+}
+
+header nav ul li a:hover{
+        font-family: 'Macondo', sans-serif;
+        font-size: xx-large;
+        color: darkcyan;
+        position: sticky;
+}
+
+h1.titulo{
+        font-family: 'Sawarabi Mincho', serif;
+        color: rgb(100, 149, 237);
+        text-align: center;
+        padding: 2%;
+        margin-top: 1rem;
+
+       animation: "animate__animated animate__slideInLeft"
+    
+}
+
+section.clearfit{
+    overflow: auto;
+}
+
+img.copa_america{ 
+        height: auto;
+        width: 40%;
+        border: 2px solid gray;
+        float: right;
+        margin-top: 1.6rem;
+}
+
+div.historia{
+       display: inline-block;
+}
+
+p.parrafo{
+    font-family: 'Marcellus SC', serif;
+    background-color: rgb(100, 149, 237, 0.9);
+    float: left;
+    width: 56%;
+    height: max-content;
+    padding: 1%;
+    border: 2px solid gray;
+    margin: 0.5rem;
+
+}
+
+div.equipo{
+        display: inline-block;
+        margin: 2%;
+        color: rgb(100, 149, 237);
+        padding: 1% black;
+        text-decoration: underline;
+}
+
+h3.competidores{
+        padding: 1%;
+        color: rgb(100, 149, 237);
+        font-family: 'Sawarabi Mincho', serif;
+        font-size: x-large;
+        text-align: center;
+        text-decoration: underline rgb(100, 149, 237);
+}
+
+span.competidores a li{
+        font-family: 'Marcellus SC', serif;
+        list-style: none;
+        text-align: center;
+        color: darkcyan;
+        background-color: rgb(0, 0, 0, 0.1);
+        padding: 0.5%;
+        text-decoration: none;
+        font-size: larger;
+}
+
+span.competidores a li:hover{
+        list-style: none;
+        text-align: center;
+        color: cyan;
+        padding: 0.5%;
+        background-color: black;
+        text-decoration: underline darkcyan;
+}
+
+img.barcos{
+        height: auto;
+        width: 40%;
+        border: 2px solid gray;
+        float: inline-start;
+        background-color: rgb(100, 149, 237, 0.8);        ;
+
+}
+
+img.log{
+        height: auto;
+        width: 20%;
+        float: none;
+
+}
+
+a.enlaces{
+        color: darkcyan;
+        background-color: black;
+        padding: 1%;
+        border-color: darkcyan;
+        border: 0.1rem solid;
+
+}
+
+a.enlaces:hover{
+        color: cyan;
+        background-color: black;
+        padding: 1%;
+        border-color: cyan;
+        border: 0.1rem solid;
+}
+
+#fondo_red_bull{
+        background-repeat: no-repeat;
+        background-position: center;
+        float: right;
+        width: 56%;
+        font-family: 'Marcellus SC', serif;
+        padding: 1%;
+        background-color: rgb(100, 149, 237, 0.8);        ;
+        background-size: 50%;
+        color: black;
+        border-radius: 2%;
+        border-color: gray;
+        
+}
+#fondo_ineos_britannia{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: rgb(100, 149, 237, 0.8);
+        float: right;
+        width: 56%;
+        font-family: 'Marcellus SC', serif;
+        padding: 1%;
+        background-size: 50%;
+        color: black;
+        border-radius: 2%;
+        border-style: solid ;
+        border-color: gray;
+}
+
+#fondo_luna_rossa{
+        background-repeat: no-repeat;
+        background-position: center;
+        float: right;
+        width: 56%;
+        font-family: 'Marcellus SC', serif;
+        padding: 1%;
+        background-color: rgb(100, 149, 237, 0.8);
+        background-size: 50%;
+        color:black;
+        border-radius: 2%;
+        border-style: solid ;
+        border-color: gray;
+}
+#fondo_emirates_team{
+        background-repeat: no-repeat;
+        background-position: center;
+        float: right;
+        width: 56%;
+        font-family: 'Marcellus SC', serif;
+        padding: 1%;
+        background-color: rgb(100, 149, 237, 0.8);
+        background-size: 50%;
+        color:black;
+        border-radius: 2%;
+        border-style: solid ;
+        border-color: gray;
+}
+
+#fondo_american_magic{
+        font-family: 'Marcellus SC', serif;
+        padding: 1%;
+        float: right;
+        width: 56%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: rgb(100, 149, 237, 0.9);
+        background-size: 30%;
+        color: black;    
+        border-radius: 2%;
+        border-style: solid ;
+        border-color: gray;
+
+}
+
+div.formulario {
+        border:2px solid black;
+        background-image:url(imagenes/png_barco.png);
+        background-size: 18%;
+        background-color: rgb(65, 105, 225, 0.9);
+        background-repeat: space; 
+}
+
+div.formulario p {
+        color: aliceblue; 
+        text-align: center;
+        font-size: larger;
+        padding: 0.5rem;
+        margin: 1rem;
+}
+
+input{
+        background-color: rgb(65, 105, 225, 0.9);
+        color: aliceblue;
+        font-size: medium;
+
+}
+
+input:hover{
+        font-family:arial Helvetica, sans-serif;
+        background-color: rgb(65, 105, 225, 0.9);
+        color: aliceblue;
+        font-size: medium;
+}
+
+input:focus{
+        font-family:arial Helvetica, sans-serif;
+        background-color: silver;
+        color: rgb(65, 105, 225, 0.9);
+        font-size: medium;
+}
+
+div.botones{
+        color: aliceblue;
+        font-size: large;
+        text-align: right;
+        margin: 1%;
+}
+input.submit{
+        background-color: silver;
+        color:rgb(65, 105, 225, 0.9) ;
+
+}
+
+input.reset{
+        background-color: silver;
+        color:rgb(65, 105, 225, 0.9)
+}
